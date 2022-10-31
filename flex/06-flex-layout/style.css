@@ -6,6 +6,8 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -29,6 +31,8 @@ input {
 
 ul {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 a {
@@ -36,12 +40,15 @@ a {
   color: grey;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
 }
 
 .footer {
-  display: flex;
+  background-color: #EEEEEE;
 }
 
 .left-links, .right-links{
@@ -52,6 +59,8 @@ a {
 .content {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  flex: 1;
 }
 
