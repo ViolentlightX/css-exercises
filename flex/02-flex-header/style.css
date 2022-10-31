@@ -22,7 +22,6 @@ ul {
   margin: 0px;
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 li {
@@ -38,13 +37,4 @@ a {
   text-decoration: none;
   padding: 0px;
   margin: 0px;
-}
-
-.left-links {
-  display: flex;
-}
-
-.right-links {
-  display: flex;
-
 }
